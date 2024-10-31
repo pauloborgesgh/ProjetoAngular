@@ -1,0 +1,25 @@
+.div-footer {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
+    background: #a0ceeb;
+    color: #ffffff;
+    box-sizing: border-box;
+}
+
+.titulo-logo {
+    margin: 0 10px;
+}
+
+.div-footer{
+    border-radius: 5px;
+    border: turquoise;
+    box-shadow: turquoise 15px 5px 30px;
+    color: black;
+    font-weight: bold;
+}
+
+

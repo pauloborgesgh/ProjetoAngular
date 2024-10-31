@@ -1,5 +1,14 @@
+*{
+    margin: 0;
+
+}
+
+
 main{
  
     background: #a0ceeb;
     border-radius: 10px;
+    box-shadow: turquoise 15px 5px 30px;
 }
+
+
