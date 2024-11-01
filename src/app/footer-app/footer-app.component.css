@@ -20,6 +20,9 @@
     box-shadow: turquoise 15px 5px 30px;
     color: black;
     font-weight: bold;
+    max-width: auto;
+    height: 60px;
+    
 }
 
 
