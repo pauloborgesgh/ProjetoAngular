@@ -1,0 +1,29 @@
+<div class="resources">
+    <h2>Resources</h2>
+    
+    <div class="categories">
+      <div class="category" *ngFor="let category of categories">
+        <h3>{{ category }}</h3>
+        <div class="resource-grid">
+          <div 
+            class="resource-card" 
+            *ngFor="let resource of getResourcesByCategory(category)"
+          >
+            <div class="card-header">
+              <span class="icon">{{ resource.icon }}</span>
+              <h4>{{ resource.title }}</h4>
+            </div>
+            <p>{{ resource.description }}</p>
+            <a 
+              [href]="resource.url" 
+              [class]="resource.type === 'download' ? 'download-btn' : 'link-btn'"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {{ resource.type === 'download' ? 'Download' : 'Visit Site' }}
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

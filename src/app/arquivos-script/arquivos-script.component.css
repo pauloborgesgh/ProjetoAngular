@@ -1,0 +1,92 @@
+.snippets {
+    padding: 2rem;
+    max-width: 1200px; /* Aumentei o máximo da largura */
+    margin: 0 auto; /* Para centralizar o conteúdo */
+  }
+  
+  .accordion-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem; /* Espaço entre as colunas */
+    justify-content: space-between;
+  }
+  
+  .accordion-column {
+    flex: 1;
+    min-width: 48%; /* Cada coluna ocupa 48% da largura */
+  }
+  
+  .accordion {
+    margin-bottom: 1rem;
+  }
+  
+  .accordion-item {
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .accordion-header {
+    padding: 1rem;
+    background: #f8f9fa;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .accordion-content {
+    padding: 1rem;
+  }
+  
+  .code-card {
+    background: #2c3e50;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 4px;
+  }
+  
+  .card-footer {
+    margin-top: 1rem;
+    padding-top: 0.5rem;
+    border-top: 1px solid #34495e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .language {
+    font-size: 0.9rem;
+    color: #bdc3c7;
+  }
+  
+  pre {
+    margin: 0;
+    white-space: pre-wrap;
+  }
+  
+  .copy-btn {
+    background: #3498db;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .copy-btn:hover {
+    background: #2980b9;
+  }
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+    .accordion-container {
+      flex-direction: column; /* Coloca as colunas em linha vertical */
+    }
+  
+    .accordion-column {
+      min-width: 100%; /* Cada coluna ocupa 100% da largura */
+    }
+  }
+  

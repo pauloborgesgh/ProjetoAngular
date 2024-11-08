@@ -1,25 +1,22 @@
-.div-footer {
-    width: 100%;
-    padding: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-     
-    background: #a0ceeb;
-    color: #ffffff;
-    box-sizing: border-box;
-}
-
-.titulo-logo {
-    margin: 0 10px;
-}
-
-.div-footer{
+.footer {
+    background: #2c3e50;
+    color: white;
+    padding: 0.1rem;
+    text-align: center;
     border-radius: 5px;
-    border: turquoise;
-    box-shadow: turquoise 15px 5px 30px;
-    color: black;
-    font-weight: bold;
-}
-
-
+    box-shadow: turquoise 1px 2px 8px;
+    bottom: 0;
+    width: 100%;
+    margin: 0px;
+  }
+  .social-links {
+    margin-top: 0.5rem;
+  }
+  .social-links a {
+    color: white;
+    margin: 0 0.5rem;
+    text-decoration: none;
+  }
+  .social-links a:hover {
+    text-decoration: underline;
+  }
