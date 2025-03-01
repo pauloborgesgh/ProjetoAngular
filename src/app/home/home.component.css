@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 *{
     margin: 0;
 
@@ -7,9 +6,9 @@
 
 main{
  
-    background: #4d5458;
+    background: #a0ceeb;
     border-radius: 10px;
-    box-shadow: #4d5458 15px 5px 30px;
+    box-shadow: turquoise 15px 5px 30px;
 }
 
 
@@ -180,5 +179,3 @@ main{
       margin-block: 1.5rem;
     }
   }
-=======
->>>>>>> origin/master
