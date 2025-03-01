@@ -5,7 +5,7 @@
     justify-content: center;
     align-items: center;
      
-    background: #a0ceeb;
+    background: #4d5458;
     color: #ffffff;
     box-sizing: border-box;
 }
@@ -16,9 +16,9 @@
 
 .div-footer{
     border-radius: 5px;
-    border: turquoise;
-    box-shadow: turquoise 15px 5px 30px;
-    color: black;
+    border: #4d5458;
+    box-shadow: #4d5458 15px 5px 30px;
+    color: rgb(255, 255, 255);
     font-weight: bold;
 }
 
